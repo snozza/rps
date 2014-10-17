@@ -1,0 +1,10 @@
+<% if @result == :win %>
+      <h2>You are the Winner!</h2>
+<% elsif @result == :lose %>
+      <h2>You are the Loser!</h2>
+<% else %>
+      <h2>It is a Draw!</h2>
+<% end %>
+
+<h3> You chose <%= @weapon %> </h3>
+<h3> Skynet chose <%= @comp_weapon %> </h3>
